@@ -1,0 +1,21 @@
+{
+  "name": "iceman-code-learn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Mobile-first coding academy website with a Node.js and Gemini backend.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.2"
+  }
+}
